@@ -1,0 +1,737 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'zh' Physical Memory: 32691 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/github/lab6/lab6-
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61462
+Successfully changed project path to: E:/github/lab6/lab6-
+E:/github/lab6/lab6-
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/github/lab6/lab6-/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Vendor:   
+    VRAM:     11048 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001775 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000436 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.731 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1290 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.6 MB.
+System memory in use after: 83.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1757.
+Total: 2.144400 ms (FindLiveObjects: 0.519100 ms CreateObjectMapping: 0.134000 ms MarkObjects: 1.185700 ms  DeleteObjects: 0.304800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Lives.cs
+  artifactKey: Guid(afc41c8b769ef604eb5cf067c618f99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lives.cs using Guid(afc41c8b769ef604eb5cf067c618f99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebcffe1960675f09d211cbe4f374490') in 0.042309 seconds
+  Import took 0.054641 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000419 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1760.
+Total: 1.624100 ms (FindLiveObjects: 0.134100 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.067900 ms  DeleteObjects: 0.380700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1266 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1763.
+Total: 1.519800 ms (FindLiveObjects: 0.117400 ms CreateObjectMapping: 0.035000 ms MarkObjects: 1.074700 ms  DeleteObjects: 0.292200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1089.696645 seconds.
+  path: Assets/Lives.cs
+  artifactKey: Guid(afc41c8b769ef604eb5cf067c618f99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lives.cs using Guid(afc41c8b769ef604eb5cf067c618f99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169baa8fea33b57a952eefc24e73a9e9') in 0.006960 seconds
+  Import took 0.021032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5035.457742 seconds.
+  path: Assets/healthUI.png
+  artifactKey: Guid(be5cf14a836b99b4cb8a2cdf1de660a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/healthUI.png using Guid(be5cf14a836b99b4cb8a2cdf1de660a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a5291e412f44bd5d854ea4856b6bfe') in 0.208700 seconds
+  Import took 0.211066 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.735 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1267 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.6 MB.
+System memory in use after: 81.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1769.
+Total: 3.190800 ms (FindLiveObjects: 0.176500 ms CreateObjectMapping: 0.040600 ms MarkObjects: 2.202400 ms  DeleteObjects: 0.770000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000483 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1267 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.7 MB.
+System memory in use after: 81.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1772.
+Total: 1.783900 ms (FindLiveObjects: 0.213900 ms CreateObjectMapping: 0.065500 ms MarkObjects: 1.148900 ms  DeleteObjects: 0.354200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1219.006020 seconds.
+  path: Assets/healthUI.png
+  artifactKey: Guid(be5cf14a836b99b4cb8a2cdf1de660a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/healthUI.png using Guid(be5cf14a836b99b4cb8a2cdf1de660a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318a43906f66005572a9b27347531d99') in 0.071292 seconds
+  Import took 0.073592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.922870 seconds.
+  path: Assets/healthUI.png
+  artifactKey: Guid(be5cf14a836b99b4cb8a2cdf1de660a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/healthUI.png using Guid(be5cf14a836b99b4cb8a2cdf1de660a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b0bb52bdda24c05e6ea5e0822e3a06') in 0.042799 seconds
+  Import took 0.045902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.237789 seconds.
+  path: Assets/MagicpotionsFree/backgrounddarkemptypotion.png
+  artifactKey: Guid(7084c420e5da44d40bf3825bdefcbb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/backgrounddarkemptypotion.png using Guid(7084c420e5da44d40bf3825bdefcbb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6e3818a8afc2d5d97f429a551cb57c') in 0.014644 seconds
+  Import took 0.016394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000853 seconds.
+  path: Assets/MagicpotionsFree/potionyellow01.png
+  artifactKey: Guid(888cd2136dc3b1a4b950591d06effdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionyellow01.png using Guid(888cd2136dc3b1a4b950591d06effdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dea95b8a7a169de4aca11f7c562a3d9') in 0.017472 seconds
+  Import took 0.019200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000872 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionblue03.png
+  artifactKey: Guid(0616a95f10c69fd49ae90713edb6b24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionblue03.png using Guid(0616a95f10c69fd49ae90713edb6b24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e8b3de4253b52bd83ef9468e7a79f2') in 0.014253 seconds
+  Import took 0.016170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000922 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionred05.png
+  artifactKey: Guid(49586845e9e749649a3b8a44c56f367c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionred05.png using Guid(49586845e9e749649a3b8a44c56f367c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e92146603ecdc1187ae760c30abf66') in 0.015323 seconds
+  Import took 0.017449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000991 seconds.
+  path: Assets/MagicpotionsFree/potionred05.png
+  artifactKey: Guid(87c6b600baaee0d4f87216d24f6f2c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionred05.png using Guid(87c6b600baaee0d4f87216d24f6f2c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ecbb843ca9d3b0af19aa33080bff64') in 0.015320 seconds
+  Import took 0.017265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000887 seconds.
+  path: Assets/MagicpotionsFree/potionyellow04.png
+  artifactKey: Guid(883f936b426b5fa43816596f75bd9a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionyellow04.png using Guid(883f936b426b5fa43816596f75bd9a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e914376b7fae72318069c822695b5118') in 0.017210 seconds
+  Import took 0.018895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000919 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionblue02.png
+  artifactKey: Guid(76440829c24699744acc4440fce35221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionblue02.png using Guid(76440829c24699744acc4440fce35221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ff46987bdc5c2a36d3c9d89fc3aef6') in 0.015320 seconds
+  Import took 0.017011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000862 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionblue03.png
+  artifactKey: Guid(f34e1872f5544804a871a4134b4a321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionblue03.png using Guid(f34e1872f5544804a871a4134b4a321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255fd141a162cbf214c3df4854ca4ad2') in 0.013979 seconds
+  Import took 0.015652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000983 seconds.
+  path: Assets/MagicpotionsFree/potionred03.png
+  artifactKey: Guid(6343597aeee2f3e4eb5f09948e345540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionred03.png using Guid(6343597aeee2f3e4eb5f09948e345540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b624b769aeedb5c63f03326cad2d5d2') in 0.016550 seconds
+  Import took 0.018728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000890 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionred02.png
+  artifactKey: Guid(72bc58717fb56f34686b3b971cbdf056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionred02.png using Guid(72bc58717fb56f34686b3b971cbdf056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6e43c53e53af19b6b019d0a197baf2') in 0.015869 seconds
+  Import took 0.017950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000764 seconds.
+  path: Assets/MagicpotionsFree/potionyellow05.png
+  artifactKey: Guid(bc29e2bf5bd430640ac8ce9d5776ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionyellow05.png using Guid(bc29e2bf5bd430640ac8ce9d5776ca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a83de06dbe60d480532d9cb896e2e3') in 0.016935 seconds
+  Import took 0.019099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/MagicpotionsFree/potionred01.png
+  artifactKey: Guid(087b874b98527c943a6b823126e6d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionred01.png using Guid(087b874b98527c943a6b823126e6d84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8caa2495e9df41bbc6d67548e54af2') in 0.014667 seconds
+  Import took 0.016533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000960 seconds.
+  path: Assets/MagicpotionsFree/potionblue02.png
+  artifactKey: Guid(f6d1867136fcb224d871340d3c0e652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionblue02.png using Guid(f6d1867136fcb224d871340d3c0e652d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7c87f14a1b75a19bda4c9c32041ce0') in 0.014206 seconds
+  Import took 0.015961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000859 seconds.
+  path: Assets/MagicpotionsFree/potionred02.png
+  artifactKey: Guid(763a1e01a7d461e499a6e5f73f11403e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionred02.png using Guid(763a1e01a7d461e499a6e5f73f11403e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41e9a48119933b78e362d6c2eea3c5f') in 0.014689 seconds
+  Import took 0.016346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionred04.png
+  artifactKey: Guid(85e7430330c3f884cae5f5d6eed5c25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionred04.png using Guid(85e7430330c3f884cae5f5d6eed5c25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529d7cbded947aacb2f206f17917b43c') in 0.016234 seconds
+  Import took 0.018706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000820 seconds.
+  path: Assets/MagicpotionsFree/potionyellow03.png
+  artifactKey: Guid(b7874c825d406fe42a08f7a895c48de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionyellow03.png using Guid(b7874c825d406fe42a08f7a895c48de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db32ce23c8ba69600132bde99e5725e4') in 0.015438 seconds
+  Import took 0.017085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000934 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionred04.png
+  artifactKey: Guid(723bf2c4e741845418e267564aad80c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionred04.png using Guid(723bf2c4e741845418e267564aad80c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252887c405e2f30fa42c7c3d98068053') in 0.017406 seconds
+  Import took 0.019145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002052 seconds.
+  path: Assets/MagicpotionsFree/potionblue04.png
+  artifactKey: Guid(8eefc4750d28c204cb1d395bbd8c4a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionblue04.png using Guid(8eefc4750d28c204cb1d395bbd8c4a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc8a4e0842de8af4206a7cbb5255dbe') in 0.015689 seconds
+  Import took 0.017418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionyellow05.png
+  artifactKey: Guid(82d9426c7c70ada4381b397d06b318ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionyellow05.png using Guid(82d9426c7c70ada4381b397d06b318ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20161dbdbf37f47e9e08b6c54b1d5a28') in 0.015512 seconds
+  Import took 0.017661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001042 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionyellow01.png
+  artifactKey: Guid(a3ddedd40a7112d4c8bbe893674884d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionyellow01.png using Guid(a3ddedd40a7112d4c8bbe893674884d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c65924d95ad29a74951bfe7ed35aa30') in 0.015286 seconds
+  Import took 0.017593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001419 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionblue05.png
+  artifactKey: Guid(9c4502f2c3204f147ab8c369cdf7dd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionblue05.png using Guid(9c4502f2c3204f147ab8c369cdf7dd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9731afc360e749511334fad6aa20acab') in 0.017156 seconds
+  Import took 0.019322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000985 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionyellow03.png
+  artifactKey: Guid(75f522c06e5183c4982f42a8bb87e291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionyellow03.png using Guid(75f522c06e5183c4982f42a8bb87e291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25a06736442e161dbf8c8efafe717b5') in 0.017237 seconds
+  Import took 0.018963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000892 seconds.
+  path: Assets/MagicpotionsFree/potionblue05.png
+  artifactKey: Guid(54f395a7c3e508d46ab3f9481df6827c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionblue05.png using Guid(54f395a7c3e508d46ab3f9481df6827c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed4c4c3fdab2db1f3da6db2ff3a2a16') in 0.015668 seconds
+  Import took 0.017412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000881 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionyellow02.png
+  artifactKey: Guid(72c6527f7a65a3f4aa00c61843212b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionyellow02.png using Guid(72c6527f7a65a3f4aa00c61843212b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cba1fbc48bb8342ea7269ae3a27282e') in 0.015433 seconds
+  Import took 0.018049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000918 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionyellow04.png
+  artifactKey: Guid(2f60e4797dc2d2f45b86def55daa060b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionyellow04.png using Guid(2f60e4797dc2d2f45b86def55daa060b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f65c5415b2d38f988415c3f9baeb729') in 0.016060 seconds
+  Import took 0.017865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002203 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionyellow04.png
+  artifactKey: Guid(db86c947575e6b84e9e65054958adba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionyellow04.png using Guid(db86c947575e6b84e9e65054958adba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfde07794c15093c5168feef735521f5') in 0.014383 seconds
+  Import took 0.016176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000853 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionyellow05.png
+  artifactKey: Guid(526748a79bb464440aaddb5c61b57678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionyellow05.png using Guid(526748a79bb464440aaddb5c61b57678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd10a3bba224597611f3467e8d90b529') in 0.018240 seconds
+  Import took 0.019979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001068 seconds.
+  path: Assets/MagicpotionsFree/emptypotion.png
+  artifactKey: Guid(c6e26e3dc30676945802df6bc2054e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/emptypotion.png using Guid(c6e26e3dc30676945802df6bc2054e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0bad8ccf05871de987179f2209228c') in 0.017605 seconds
+  Import took 0.020035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000859 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionyellow03.png
+  artifactKey: Guid(24349f61b3c289d4f86c44c19b3aec24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionyellow03.png using Guid(24349f61b3c289d4f86c44c19b3aec24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a739f8156fb9ddb7d53fc0a2f46e61c') in 0.015193 seconds
+  Import took 0.016914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001316 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionred02.png
+  artifactKey: Guid(06658dac4f6fbe549906d425e1bf2c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionred02.png using Guid(06658dac4f6fbe549906d425e1bf2c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fe094ed3371b66d64eaf5e9b400ef3') in 0.016214 seconds
+  Import took 0.018042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001259 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionblue04.png
+  artifactKey: Guid(3859fd5de2c1ba54f96308ea916c4c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionblue04.png using Guid(3859fd5de2c1ba54f96308ea916c4c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4df7488f7a0a90e4db2c954e287afc') in 0.017032 seconds
+  Import took 0.019183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001016 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionyellow02.png
+  artifactKey: Guid(9cf9c4a7699e26642a101c1d060de3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionyellow02.png using Guid(9cf9c4a7699e26642a101c1d060de3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92cc9cb06971db62c69b81224feac53') in 0.019939 seconds
+  Import took 0.021915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001047 seconds.
+  path: Assets/MagicpotionsFree/potionred04.png
+  artifactKey: Guid(33616eea09c45d94680fb8cecff30251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionred04.png using Guid(33616eea09c45d94680fb8cecff30251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcc154a054f7b05884ce320c904a40d') in 0.017023 seconds
+  Import took 0.019143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000914 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionblue01.png
+  artifactKey: Guid(2a7875137b38a3741881b2f66a7aa622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionblue01.png using Guid(2a7875137b38a3741881b2f66a7aa622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01f9295d08a27aefbc19a8be878dd61') in 0.016485 seconds
+  Import took 0.019120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000927 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionblue04.png
+  artifactKey: Guid(d1d51a7aca9a75f43ad533ca27c0ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionblue04.png using Guid(d1d51a7aca9a75f43ad533ca27c0ba9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa51aa412ffe243c4b45f893484d6ef2') in 0.016926 seconds
+  Import took 0.018934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001006 seconds.
+  path: Assets/MagicpotionsFree/potionblue03.png
+  artifactKey: Guid(e24c4ecf9ab49584e8bb0f783c6eeeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionblue03.png using Guid(e24c4ecf9ab49584e8bb0f783c6eeeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7b6a78895091b3dc97a27998d95383') in 0.017277 seconds
+  Import took 0.019044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000910 seconds.
+  path: Assets/MagicpotionsFree/potionyellow02.png
+  artifactKey: Guid(fa16e750f81abe341b055fbb1e9f51ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionyellow02.png using Guid(fa16e750f81abe341b055fbb1e9f51ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591b269fe3cd20058a0c4bf07727a1e2') in 0.016903 seconds
+  Import took 0.018690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionblue02.png
+  artifactKey: Guid(90e2cfb299e931248b97d3a920b7d882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionblue02.png using Guid(90e2cfb299e931248b97d3a920b7d882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6055dda958e346a274315def534bc84d') in 0.016264 seconds
+  Import took 0.018209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000925 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionred03.png
+  artifactKey: Guid(69a654ee9cd7b194c87666bb22389523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionred03.png using Guid(69a654ee9cd7b194c87666bb22389523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4eeb670424bbca1076a6f46f9b2aec') in 0.014954 seconds
+  Import took 0.017215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001042 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionyellow01.png
+  artifactKey: Guid(530a640dff374bc47add1a7b1fb384b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionyellow01.png using Guid(530a640dff374bc47add1a7b1fb384b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9987839886a1d01f797c887875c0720c') in 0.015766 seconds
+  Import took 0.018323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000919 seconds.
+  path: Assets/MagicpotionsFree/potionblue01.png
+  artifactKey: Guid(91bd25a869743c747bf24cc5be364e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/potionblue01.png using Guid(91bd25a869743c747bf24cc5be364e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf570e46cafb7588628cd764b7d0863') in 0.016359 seconds
+  Import took 0.018302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001034 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionblue05.png
+  artifactKey: Guid(de5911e35e31898428c648a1e7b1712a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionblue05.png using Guid(de5911e35e31898428c648a1e7b1712a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3685a4a80a5717a7cbe08fe67db3493d') in 0.019685 seconds
+  Import took 0.022164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000878 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionred05.png
+  artifactKey: Guid(bca0189fbc8e2a749942e398e3183af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionred05.png using Guid(bca0189fbc8e2a749942e398e3183af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff23cdd844af77624c9a04ececca8504') in 0.014681 seconds
+  Import took 0.016315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000861 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionred03.png
+  artifactKey: Guid(b7172bb60fbaf5b44ac9a620d33efe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionred03.png using Guid(b7172bb60fbaf5b44ac9a620d33efe91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77490f56cf48d1d1dded0c44422c963') in 0.014797 seconds
+  Import took 0.017134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001295 seconds.
+  path: Assets/MagicpotionsFree/backgroundlightemptypotion.png
+  artifactKey: Guid(43c4455872c8ddd4085b960b66d5ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/backgroundlightemptypotion.png using Guid(43c4455872c8ddd4085b960b66d5ef13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a758f77fa08a0b378f01c34054c757ae') in 0.015338 seconds
+  Import took 0.017262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001087 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionblue01.png
+  artifactKey: Guid(eeaaa54bb918ec94da6e4f72ec202809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionblue01.png using Guid(eeaaa54bb918ec94da6e4f72ec202809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52476e0ec85aebf85fa25af1eb08987') in 0.016845 seconds
+  Import took 0.019023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001543 seconds.
+  path: Assets/MagicpotionsFree/bgdarkpotionred01.png
+  artifactKey: Guid(c95c2be8cf84c0d4c9d0dac8dbc933a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bgdarkpotionred01.png using Guid(c95c2be8cf84c0d4c9d0dac8dbc933a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea8973875392a0a90fca11af1f05669') in 0.019714 seconds
+  Import took 0.021588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000935 seconds.
+  path: Assets/MagicpotionsFree/bglightpotionred01.png
+  artifactKey: Guid(0b777f9bba583e8409f55a93ea43c3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicpotionsFree/bglightpotionred01.png using Guid(0b777f9bba583e8409f55a93ea43c3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d123346aff792e39c62dff33c57afae') in 0.016448 seconds
+  Import took 0.018186 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000442 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.750 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1267 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1781.
+Total: 1.480400 ms (FindLiveObjects: 0.115800 ms CreateObjectMapping: 0.035000 ms MarkObjects: 1.065800 ms  DeleteObjects: 0.262800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 510.455693 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b538d55588bea48c902ae38a056aeaab') in 0.023316 seconds
+  Import took 0.025079 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000689 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1267 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1784.
+Total: 1.657800 ms (FindLiveObjects: 0.140200 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.165300 ms  DeleteObjects: 0.312800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000654 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1267 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1787.
+Total: 1.587400 ms (FindLiveObjects: 0.126100 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.120900 ms  DeleteObjects: 0.299100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000878 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1267 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1790.
+Total: 1.579200 ms (FindLiveObjects: 0.154600 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.073700 ms  DeleteObjects: 0.305000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000442 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1267 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1793.
+Total: 1.727500 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.063100 ms MarkObjects: 1.136200 ms  DeleteObjects: 0.339500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1267 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1796.
+Total: 1.568100 ms (FindLiveObjects: 0.124800 ms CreateObjectMapping: 0.035600 ms MarkObjects: 1.098700 ms  DeleteObjects: 0.308000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
