@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
 {
-    private GameMaster gm;
+    private GameManager gm;
 
     void Start()
     {
-        gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
+        gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
     }
 
 

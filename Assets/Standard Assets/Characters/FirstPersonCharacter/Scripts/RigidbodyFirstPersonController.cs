@@ -1,14 +1,25 @@
 using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using Photon.Pun;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
     [RequireComponent(typeof (Rigidbody))]
     [RequireComponent(typeof (CapsuleCollider))]
+
     public class RigidbodyFirstPersonController : MonoBehaviour
+
     {
+        private void Start()
+        {
+            m_RigidBody = GetComponent<Rigidbody>();
+            m_Capsule = GetComponent<CapsuleCollider>();
+            mouseLook.Init(transform, cam.transform);
+            view = GetComponent<PhotonView>();
+        }
         [Serializable]
+       
         public class MovementSettings
         {
             public float ForwardSpeed = 8.0f;   // Speed when walking forward
@@ -17,43 +28,50 @@ namespace UnityStandardAssets.Characters.FirstPerson
             public float RunMultiplier = 2.0f;   // Speed when sprinting
 	        public KeyCode RunKey = KeyCode.LeftShift;
             public float JumpForce = 30f;
+            PhotonView view;
             public AnimationCurve SlopeCurveModifier = new AnimationCurve(new Keyframe(-90.0f, 1.0f), new Keyframe(0.0f, 1.0f), new Keyframe(90.0f, 0.0f));
             [HideInInspector] public float CurrentTargetSpeed = 8f;
 
+          
 #if !MOBILE_INPUT
             private bool m_Running;
 #endif
 
             public void UpdateDesiredTargetSpeed(Vector2 input)
             {
-	            if (input == Vector2.zero) return;
-				if (input.x > 0 || input.x < 0)
-				{
-					//strafe
-					CurrentTargetSpeed = StrafeSpeed;
-				}
-				if (input.y < 0)
-				{
-					//backwards
-					CurrentTargetSpeed = BackwardSpeed;
-				}
-				if (input.y > 0)
-				{
-					//forwards
-					//handled last as if strafing and moving forward at the same time forwards speed should take precedence
-					CurrentTargetSpeed = ForwardSpeed;
-				}
+                if (view.IsMine)
+                {
+
+
+                    if (input == Vector2.zero) return;
+                    if (input.x > 0 || input.x < 0)
+                    {
+                        //strafe
+                        CurrentTargetSpeed = StrafeSpeed;
+                    }
+                    if (input.y < 0)
+                    {
+                        //backwards
+                        CurrentTargetSpeed = BackwardSpeed;
+                    }
+                    if (input.y > 0)
+                    {
+                        //forwards
+                        //handled last as if strafing and moving forward at the same time forwards speed should take precedence
+                        CurrentTargetSpeed = ForwardSpeed;
+                    }
 #if !MOBILE_INPUT
-	            if (Input.GetKey(RunKey))
-	            {
-		            CurrentTargetSpeed *= RunMultiplier;
-		            m_Running = true;
-	            }
-	            else
-	            {
-		            m_Running = false;
-	            }
+                    if (Input.GetKey(RunKey))
+                    {
+                        CurrentTargetSpeed *= RunMultiplier;
+                        m_Running = true;
+                    }
+                    else
+                    {
+                        m_Running = false;
+                    }
 #endif
+                }
             }
 
 #if !MOBILE_INPUT
@@ -74,14 +92,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
             public bool airControl; // can the user control the direction that is being moved in the air
             [Tooltip("set it to 0.1 or more if you get stuck in wall")]
             public float shellOffset; //reduce the radius by that ratio to avoid getting stuck in wall (a value of 0.1f is nice)
+
         }
 
-
+       
         public Camera cam;
         public MovementSettings movementSettings = new MovementSettings();
         public MouseLook mouseLook = new MouseLook();
         public AdvancedSettings advancedSettings = new AdvancedSettings();
-
+        PhotonView view;
 
         private Rigidbody m_RigidBody;
         private CapsuleCollider m_Capsule;
@@ -116,14 +135,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
 #endif
             }
         }
+       
 
-
-        private void Start()
-        {
-            m_RigidBody = GetComponent<Rigidbody>();
-            m_Capsule = GetComponent<CapsuleCollider>();
-            mouseLook.Init (transform, cam.transform);
-        }
+        //private void Start()
+        //{
+        //    m_RigidBody = GetComponent<Rigidbody>();
+        //    m_Capsule = GetComponent<CapsuleCollider>();
+        //    mouseLook.Init (transform, cam.transform);
+        //    view = GetComponent<PhotonView>();
+        //}
 
 
         private void Update()

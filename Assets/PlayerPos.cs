@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class PlayerPos : MonoBehaviour
 {
-    private GameMaster gm;
+    private GameManager gm;
     void Start()
     {
-        gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
+        gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
         transform.position = gm.lastCheckPointPos;
     }
 
