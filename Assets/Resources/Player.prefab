@@ -180,9 +180,9 @@ MonoBehaviour:
   axes: 1
   sensitivityX: 15
   sensitivityY: 15
-  minimumX: 1
-  maximumX: 1
-  minimumY: 1
+  minimumX: -386
+  maximumX: 386
+  minimumY: -1
   maximumY: 1
 --- !u!114 &1283773477397693530
 MonoBehaviour:
@@ -229,8 +229,7 @@ MonoBehaviour:
   damage: 50
   range: 100
   fpsCam: {fileID: 1283773478967999068}
-  muzzleFlash: {fileID: 0}
-  impactEffect: {fileID: 0}
+  impactEffect: {fileID: 100010, guid: 645413a00f7bd0242bbd6d0e5eb6f439, type: 3}
   impactForce: 30
   fireRate: 20
 --- !u!114 &1283773477397693529
